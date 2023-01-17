@@ -610,41 +610,56 @@
     </section>
     <!--./section-->
 
-    <div class="map">
-        <div class="map__content">
-            <div class="map__logo"><a href="#"><i class="fa-solid fa-location-dot"></i></a></div>
-            <div class="map__name"><a href="#">open map</a></div>
-        </div>
-    </div><!--map-->
-
-    <section class="section">
+    <section class="section section--map">
         <div class="container">
-            <div class="footer">
-                <div class="footer__item">
-                    <div class="our__social__networks">
-                        <div class="header__logo--gray">MoGo</div>
-                        <div class="footer__text">Lorem ipsum dolor sit amet, 
-                            consectetur adipiscing elit, sed do eiusmod tempor 
-                            incididunt ut labore et dolore magna aliqua. 
-                            Ut enim ad minim veniam, quis nostrud exercitation 
-                            ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
-                        <div class="statistic__followers"><span>15K</span> followers</div>
-                        <div class="social__networks">
-                            Follow us  
-                            <i class="fa-brands fa-facebook-f"></i>
-                            <i class="fa-brands fa-twitter"></i>
-                            <i class="fa-brands fa-instagram"></i>
-                            <i class="fa-brands fa-pinterest-p"></i>
-                            <i class="fa-brands fa-google-plus-g"></i>
-                            <i class="fa-brands fa-youtube"></i>
-                            <i class="fa-solid fa-basketball"></i>
-                            <i class="fa-solid fa-t"></i>
-                        </div>
-                    </div>
-                </div>
+            <div class="map__content">
+                <h2 class="map__title">
+                    <a class="map__logo" href="#"><i class="fa-solid fa-location-dot"></i></a>
+                    <b></b>
+                    <a class="map__name" target="_blank" href="#">open map</a>
+                </h2>
             </div>
         </div>
     </section>
+    <!--map-->
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer">
+                <div class="footer__item">
+                    <div class="footer__logo">MoGo</div>
+                    <div class="footer__text">Lorem ipsum dolor sit amet,
+                        consectetur adipiscing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua.
+                        Ut enim ad minim veniam, quis nostrud exercitation
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
+                    <div class="footer__social">
+                        <div class="statistic__followers"><span>15K</span> followers</div>
+                        <div class="social__networks">
+                            Follow us
+                            <a target="_blank" href="#">
+                                <i class="fa-brands fa-facebook-f"></i>
+                                <i class="fa-brands fa-twitter"></i>
+                                <i class="fa-brands fa-instagram"></i>
+                                <i class="fa-brands fa-pinterest-p"></i>
+                                <i class="fa-brands fa-google-plus-g"></i>
+                                <i class="fa-brands fa-youtube"></i>
+                                <i class="fa-solid fa-basketball"></i>
+                                <i class="fa-solid fa-t"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <form class="subscribe" action="/" method="post">
+                        <input class="subscribe__input" type="email" name="name" placeholder="Your Email...">
+                        <button class="subscribe__btn" type="submit">subscribe</button>
+                    </form>
+                </div>
+            </div>
+            <!--footer-->
+        </div>
+        <!--container-->
+    </footer>
+    <!--./footer-->
 </body>
 
 </html>

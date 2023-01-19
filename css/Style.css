@@ -1000,3 +1000,48 @@ h6 {
     outline: 0;
     border-color: #95e1d3;
 }
+
+/*footer__item--blogs*/
+
+.footer__item--blogs {
+    width: 100%;
+    max-width: 400px;
+}
+
+.blogs__content {
+    display: flex;
+    flex-wrap: wrap;
+
+    padding-top: 75px;
+    margin-left: 45px;
+}
+
+.content__items {
+    position: relative;
+    margin-bottom: 30px;
+}
+
+.content__photo {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.content__info {
+    margin-left: 140px;
+    padding-top: 15px;
+}
+
+.content__name {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+
+.content__date {
+    font-family: 'Roboto', sans-serif;
+    font-size: 13px;
+    font-style: italic;
+    color: #ccc;
+}
